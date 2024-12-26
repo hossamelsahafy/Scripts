@@ -1,0 +1,12 @@
+Hi, I need a shell script named `ViteCreator.sh` that does the following:
+
+1. Prompts the user for the directory path where the React Vite project will be created.
+2. Expands tilde (~) to the home directory if present in the path.
+3. Creates the directory if it doesn't exist.
+4. Navigates to the directory and confirms navigation.
+5. Prompts the user for the project name.
+6. Uses `npx create-vite@latest` to create a React Vite project in the specified directory.
+7. Installs project dependencies using `npm install`.
+8. Automatically opens a new shell in the project directory.
+
+The script should handle errors gracefully and notify the user at each step. Could you provide that script?
